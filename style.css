@@ -1,0 +1,25 @@
+.button-all{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 13px;
+    padding: 8px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.navigation-parent{
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    margin: auto;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+.button-place{
+    display: flex;
+    justify-content: flex-end;
+}
