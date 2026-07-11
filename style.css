@@ -1,17 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .button-all{
-    background-color: blue;
+    background-color: rgb(62, 62, 225);
     color: white;
     border: none;
     font-size: 13px;
-    padding: 8px 5px;
+    padding: 15px 20px;
     border-radius: 10px;
     cursor: pointer;
 }
 .navigation-parent{
     display: flex;
     justify-content: space-between;
-    max-width: 200px;
-    margin: auto;
+    align-items: center;
+    padding: 15px 70px;
+
 }
 ul{
     display: flex;
@@ -19,7 +25,24 @@ ul{
     list-style: none;
     gap: 30px;
     align-items: center;
-.button-place{
-    display: flex;
-    justify-content: flex-end;
+}
+
+
+.background-image{
+    background-image: url(./assets/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: grid;
+    grid-auto-rows: 400px 1fr;
+    text-align: center;
+    color: white;
+    
+}
+.banner-content h1{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.banner-content p{
+    margin-top: 20px;
 }
