@@ -19,7 +19,7 @@
     padding: 15px 70px;
 
 }
-.navigation-ul{
+.navigation-ul-1{
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -60,6 +60,13 @@
     text-align: center;
     font-size: 30px;
 }
+.card-h6{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 10px;
+    color: grey;
+}
+
 .person-box{
     border: 1px solid white;
     border-radius: 12px;
@@ -75,4 +82,23 @@
 }
 .person-box-content p{
     color: gray;
+}
+.card-1-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 150px;
+    width: 1200px;
+    text-align: left;
+    gap: 20px;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+    background: rgb(246, 241, 241);
+}
+ul{
+
+}
+.back-color{
+    background-color: rgb(13, 2, 45);
+    color: white;
 }
