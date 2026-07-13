@@ -110,6 +110,7 @@
     border: none;
     background: rgb(241, 237, 237);
     color: blue;
+    cursor: pointer;
 }
 .button-pro{
     width: 100%;
@@ -117,6 +118,7 @@
     border: none;
     background: rgb(56, 20, 185);
     color: white;
+    cursor: pointer;
 }
 .back-color{
     background-color: rgb(8, 4, 19);
@@ -212,7 +214,7 @@
 .career-button a{
     display:inline-block;
     text-decoration:none;
-    background:#ff6b35;
+    background:#3d0c9f;
     color:#fff;
     padding:15px 40px;
     border-radius:8px;
@@ -222,7 +224,7 @@
 }
 
 .career-button a:hover{
-    background:#e65b27;
+    background:#9f7029;
 }
 
 /* Responsive */
@@ -244,6 +246,23 @@
 }
 
 
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px;
+    background-color: rgb(1, 1, 10);
+    color: white;
+    font-size: 10px;
+
+}
+.footer-ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
 
 
 
