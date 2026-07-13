@@ -63,7 +63,7 @@
 .card-h6{
     margin-top: 5px;
     text-align: center;
-    font-size: 10px;
+    font-size: 9px;
     color: grey;
 }
 
@@ -93,12 +93,160 @@
     border: 1px solid white;
     border-radius: 12px;
     overflow: hidden;
-    background: rgb(246, 241, 241);
 }
-ul{
+.card-1-3 ul{
+    margin: 20px 0;
+    padding-left: 50px;
+}
+.card-1-3 h1, p, h6{
+    margin: 1px 2px;
+    padding-left: 40px;
+    margin-top: 8px;
 
 }
-.back-color{
-    background-color: rgb(13, 2, 45);
+.button-get{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: rgb(241, 237, 237);
+    color: blue;
+}
+.button-pro{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: rgb(56, 20, 185);
     color: white;
 }
+.back-color{
+    background-color: rgb(8, 4, 19);
+    color: rgb(243, 233, 233);
+}
+
+
+
+
+
+
+/* ===========================
+   Build Your Career Section
+=========================== */
+
+.career{
+    padding:100px 8%;
+    background:#f5f7fc;
+}
+
+.career-container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.career-heading{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.career-heading span{
+    color:#ff6b35;
+    font-size:16px;
+    font-weight:bold;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+.career-heading h2{
+    font-size:42px;
+    margin:20px 0;
+    color:#222;
+}
+
+.career-heading p{
+    max-width:750px;
+    margin:auto;
+    color:#666;
+    line-height:1.8;
+}
+
+.career-cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.career-card{
+    background:#fff;
+    padding:35px 30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.4s;
+}
+
+.career-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+}
+
+.icon{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.career-card h3{
+    font-size:25px;
+    color:#222;
+    margin-bottom:15px;
+}
+
+.career-card p{
+    color:#666;
+    line-height:1.7;
+}
+
+.career-button{
+    text-align:center;
+    margin-top:60px;
+}
+
+.career-button a{
+    display:inline-block;
+    text-decoration:none;
+    background:#ff6b35;
+    color:#fff;
+    padding:15px 40px;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.career-button a:hover{
+    background:#e65b27;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .career{
+        padding:70px 5%;
+    }
+
+    .career-heading h2{
+        font-size:32px;
+    }
+
+    .career-card{
+        padding:30px 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
